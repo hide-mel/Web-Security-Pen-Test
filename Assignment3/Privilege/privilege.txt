@@ -1,0 +1,10 @@
+admin page: change admin=false to true
+
+http://assignment-zeus.unimelb.life/assign.php
+
+change admin=true and send a decoded json
+user katsuhidei and roleGroup 9
+
+json={"user":"katsuhidei", "roleGroup": 9}
+
+all done!

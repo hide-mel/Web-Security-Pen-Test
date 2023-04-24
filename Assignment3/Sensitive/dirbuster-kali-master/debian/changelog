@@ -1,0 +1,32 @@
+dirbuster (1.0-1kali4) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Update Maintainer field
+  * Update Vcs-* fields for the move to gitlab.com
+  * Add GitLab's CI configuration file
+  * Configure git-buildpackage for Kali
+  * Update URL in GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * Use debhelper-compat 13
+  * Bump Standards-Version to 4.5.0
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 04 Dec 2020 10:33:43 +0100
+
+dirbuster (1.0-1kali3) kali-dev; urgency=medium
+
+  * Fix the shell script to allow user to provide options
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 10 Dec 2015 14:51:43 +0100
+
+dirbuster (1.0-1kali2) kali; urgency=low
+
+  * Removed desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 07:16:13 -0500
+
+dirbuster (1.0-1kali1) kali; urgency=low
+
+  * Initial release
+
+ -- dookie <dookie@kali.org>  Thu, 22 Nov 2012 06:58:15 -0700
